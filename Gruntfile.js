@@ -62,7 +62,7 @@
 						expand : true,
 						cwd : 'assets/javascripts/',
 						src : [ '**/*' ],
-						dest : 'www/js/'
+						dest : 'www/'
 					} ]
 				}
 			},
@@ -179,7 +179,7 @@
 			watch : {
 				coffee : {
 					files : [ 'assets/javascripts/**' ],
-					tasks : [ 'coffee' ]
+					tasks : [ 'copy:app' ]
 				},
 				less : {
 					files : [ 'assets/stylesheets/**/*.less' ],
@@ -191,6 +191,10 @@
 				img : {
 					files : [ 'assets/img/**/*' ],
 					tasks : [ 'copy:img' ]
+				},
+				fonts : {
+					files : [ 'assets/fonts/**/*' ],
+					tasks : [ 'copy:fonts' ]
 				},
 				htmlbuild : {
 					files : [ 'assets/public/**/*.html' ],
@@ -217,7 +221,7 @@
 		grunt.registerTask('default', [ 'build' ]);
 		grunt.registerTask('build', [ 'clean', 'jshint', 'requirejs:release',
 				'copy', 'requirejs:cordova', 'less', 'cssmin', 'htmlbuild' ]);
-		grunt.registerTask('server', [ 'coffee', 'connect:web' ]);
+		grunt.registerTask('server', [ 'copy', 'connect:web' ]);
 		return grunt.registerTask('test', [ 'mocha_phantomjs' ]);
 	};
 

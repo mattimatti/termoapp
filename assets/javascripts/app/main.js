@@ -1,4 +1,7 @@
 define("kickstart", function(require) {
+	
+	
+	console.error("dddd");
     var app = require("app");
     var Router = require("router");
 
