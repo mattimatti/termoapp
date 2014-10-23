@@ -90,18 +90,6 @@ Your tests are converted from coffeescript to javascript the same way your appli
 
 With `grunt server` running, you can also access your tests at `http://localhost:5000/js/spec`.
 
-### Technologies/Libraries used in the vanilla template
-
- * Coffeescript
- * Less
- * RequireJs
- * Backbone
- * JQuery
- * Underscore
- * HammerJS
- * Mocha
- * Chai
- * Sinon
 
 ### Adding new libraries
 
@@ -116,18 +104,3 @@ Use `bower` for libraries and modules you want to be available in your applicati
 
 For any bower components you want to use in your project, you'll need to configure them for use with requirejs, to do this. Add them to your `assets/javascripts/app/require_config.coffee` file. If you're struggling with this, [read up on how requirejs works](http://requirejs.org/).
 
-
-## Working without Coffeescript
-
-If you don't want to use coffeescript, you can replace the `coffee` task in your project's `Gruntfile.coffee` with a `copy` task to copy across your .js files instead.
-
-For more info, see the [grunt-contrib-copy](https://github.com/gruntjs/grunt-contrib-copy) project, or copy and modify an existing `copy` task from this project's gruntfile.
-
-## Projects built from this template
-
-* [The Holiday Extras App](https://play.google.com/store/apps/details?id=com.HolidayExtras.Tripapp)
-* [Group Track](https://play.google.com/store/apps/details?id=co.uk.thedumbterminal.grouptracker)
-
-## Thanks
-
-Major thanks to [Sam Breed](https://twitter.com/sambreed) of [QuickLeft](http://quickleft.com/) for bringing us up to speed on all things Cordova. If you're looking for a more minimal template you should definitely check out their [cordova-project-template](https://github.com/quickleft/cordova-project-template) repository.
