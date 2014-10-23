@@ -26,6 +26,26 @@ npm install
 bower install
 ```
 
+
+```
+nano ~/.bash_profile
+
+# append those lines
+
+export ANDROID_HOME=/<installation location>/android-sdk-macosx
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+
+source ~/.bash_profile
+
+#install ant
+xcode-select --install
+brew update
+brew install ant
+
+
+```
+
 Getting your app ready for compilation:
 
 ```
