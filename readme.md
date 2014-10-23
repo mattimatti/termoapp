@@ -1,10 +1,9 @@
-# Termofacile Mobile Application (v0.3.2)
-
-This application hast the goal to permit disconnected users to fill some forms with data.
-Once connected back to a network syncronize the project with online cms.
+# Termofacile Mobile Application
 
 ## What is it?
 
+This application hast the goal to permit disconnected users to fill some forms with data.
+Once connected back to a network syncronize the project with online cms.
 
 ## Installation/Running
 
