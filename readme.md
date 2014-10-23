@@ -29,6 +29,28 @@ bower install
 
 ### Install ANT (for android)
 http://wiki.eclipse.org/Ant/User_Guide
+
+
+```
+ant -v
+
+cd /usr/share/
+sudo curl -O http://mirror.nohup.it/apache//ant/binaries/apache-ant-1.9.4-bin.tar.gz
+sudo tar -zxvf apache-ant-1.9.4-bin.tar.gz
+sudo mv apache-ant-1.9.4 ant
+sudo chown -R root:wheel /usr/share/ant
+sudo rm apache-ant-1.9.4-bin.tar.gz
+nano ~/.bash_profile
+
+export ANT_HOME="/usr/share/ant"
+export PATH=$PATH:$ANT_HOME/bin
+source ~/.bash_profile
+```
+
+
+
+### Install ANDROID SDK
+
 ```
 nano ~/.bash_profile
 
