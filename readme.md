@@ -19,7 +19,9 @@ With these, you should be able to run the following commands to get the included
 Installing node/bower dependencies (both locally and globally for node):
 
 ```
-npm install -g
+sudo npm install -g grunt
+sudo npm install -g cordova
+sudo npm install -g ios-sim
 npm install 
 bower install
 ```
