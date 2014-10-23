@@ -27,6 +27,8 @@ bower install
 ```
 
 
+### Install ANT (for android)
+http://wiki.eclipse.org/Ant/User_Guide
 ```
 nano ~/.bash_profile
 
