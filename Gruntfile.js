@@ -51,6 +51,16 @@
             }
           ]
         },
+        fonts: {
+            files: [
+              {
+                expand: true,
+                cwd: 'assets/fonts/',
+                src: ['**/*'],
+                dest: 'www/fonts/'
+              }
+            ]
+          },
         app: {
           files: [
             {
