@@ -1,14 +1,10 @@
-# Cordova Backbone Template (v0.3.2)
+# Termofacile Mobile Application (v0.3.2)
 
-[![Build Status](https://travis-ci.org/holidayextras/cordova-backbone-template.png)](https://travis-ci.org/holidayextras/cordova-backbone-template)
+This application hast the goal to permit disconnected users to fill some forms with data.
+Once connected back to a network syncronize the project with online cms.
 
 ## What is it?
 
-This goal of this repository is to jump start you past all the complexity of setting up a Cordova app and project workflow. You should be able to download, compile and run the project on iOS or Android in a few commands, and easily get developing and making changes using JavasScript and Backbone.js straight away.
-
-We've chosen Backbone for this template project as it's **1.** simple, **2.** well documented, **3.** widely used and **4.** not too heavily prescribed in terms of application architecture/best practices. It's also what I'm most familiar with...
-
-As it comes, this project also uses Coffeescript (which is auto-converted to JS by a grunt task) because we feel it's nicer to write object-oriented web applications in. If you don't want to use it, see the section below on removing it.
 
 ## Installation/Running
 
